@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp">
+            <EditText
+                android:id="@+id/NumInStream"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="210"
+                android:hint="Czech Entropy Application - synchronous entropy generator for the Vernam code \n"
+                android:textSize="18sp">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/SysMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:clickable="true"
+                android:text="System messages\n\n"
+                android:textSize="18sp">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/VernamKeyInt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:clickable="true"
+                android:text="Generated Vernam Key in INT (60 numbers)\n\n\n\n"
+                android:textSize="18sp">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/VernamKeyHex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:clickable="true"
+                android:text="Generated Vernam Key in HEX (60 numbers)\n\n\n\n"
+                android:textSize="18sp">
+            </EditText>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnGenerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:onClick="onButtonGenerate"
+                android:text="GENERATE">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnIntCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="copyToClipboardINT"
+                android:text="COPY INT TO CLIPBOARD">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnHexCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="copyToClipboardHEX"
+                android:text="COPY HEX TO CLIPBOARD">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onButtonExit"
+                android:text="EXIT">
+            </Button>
+        </TableRow>
+        <TableRow>
+            <ScrollView
+                android:id="@+id/ScrollView01"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <TextView
+                    android:id="@+id/Guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:linksClickable="true"
+                    android:scrollbars="vertical"
+                    android:text="Czech Entropy Application https://github.com/vallshmeleff \n\n Synchronous random number generator for the Vernam cipher without a synchronization channel. When using the same phrase text, it generates the same key on several smartphones of the same model (there must be the same build version of Android). \n\n"
+                    android:textSize="18sp">
+                </TextView>
+            </ScrollView>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/Content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="18sp">
+            </EditText>
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>
