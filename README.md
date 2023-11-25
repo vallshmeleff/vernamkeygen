@@ -5,3 +5,4 @@ The application DOES NOT encode data. The application prepares an array for use 
 An application <b>Czech Entropy</b> ( http://czechentropy.freetzi.com/ ) was created based on this project - CzechEntropy.APK<br>
 Support Blog -  https://rescuewebcam.blogspot.com/ <br>
 16.Nov.2023 ver. 0.35 Added MULTIMODE random number array processing<br>
+23.Nov.2023 ver. 0.35.3 Added EnCalibrate mode
