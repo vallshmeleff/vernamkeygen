@@ -9,3 +9,4 @@ Support Blog -  https://rescuewebcam.blogspot.com/ <br>
             Online Guide - Google DOC - https://docs.google.com/document/d/1KVdnGEbI1_Fc45BrVEa4XQeaRATy4ynjQg5Y9yWrBAo/edit?usp=sharing <br>
 01.Nov.2023 Built-in Guide added<br>
 08.Nov.2023 Single-bit Density (Analytic) added<br>
+            Download APK https://drive.google.com/file/d/1in6sX45yDGty7NyDGCskZhJYJ4wo8V_T/view?usp=sharing<br>
