@@ -8,3 +8,4 @@ Support Blog -  https://rescuewebcam.blogspot.com/ <br>
 23.Nov.2023 ver. 0.35.3 Added EnCalibrate mode<br>
             Online Guide - Google DOC - https://docs.google.com/document/d/1KVdnGEbI1_Fc45BrVEa4XQeaRATy4ynjQg5Y9yWrBAo/edit?usp=sharing <br>
 01.Nov.2023 Built-in Guide added<br>
+08.Nov.2023 Single-bit Density (Analytic) added<br>
