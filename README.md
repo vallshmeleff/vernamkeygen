@@ -8,5 +8,5 @@ Support Blog -  https://rescuewebcam.blogspot.com/ <br>
 23.Nov.2023 ver. 0.35.3 Added EnCalibrate mode<br>
             Online Guide - Google DOC - https://docs.google.com/document/d/1KVdnGEbI1_Fc45BrVEa4XQeaRATy4ynjQg5Y9yWrBAo/edit?usp=sharing <br>
 01.Nov.2023 Built-in Guide added<br>
-08.Nov.2023 Single-bit Density (Analytic) added<br>
-            Download APK https://drive.google.com/file/d/1in6sX45yDGty7NyDGCskZhJYJ4wo8V_T/view?usp=sharing <br>
+10.Feb.2024 1024 bit PRNG (Czech Entropy PRNG Block 4) <br>
+            Download APK http://shmeleff.com/CzechEntropy.apk <br>
