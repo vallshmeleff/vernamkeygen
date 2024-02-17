@@ -9,5 +9,5 @@ Support Blog -  https://rescuewebcam.blogspot.com/ <br>
             Online Guide - Google DOC - https://docs.google.com/document/d/1KVdnGEbI1_Fc45BrVEa4XQeaRATy4ynjQg5Y9yWrBAo/edit?usp=sharing <br>
 01.Nov.2023 Built-in Guide added<br>
 10.Feb.2024 1024 bit PRNG (Czech Entropy PRNG Block 4) <br>
-            Download APK https://www.upload-apk.com/CyMRIyvMX9xsGnI
+            Download APK https://www.upload-apk.com/CyMRIyvMX9xsGnI<br>
             Download APK http://shmeleff.com/CzechEntropy.apk <br>
